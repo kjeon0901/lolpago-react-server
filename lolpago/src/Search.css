@@ -1,0 +1,180 @@
+.search_elements {
+    width: 100%;
+    height: 100%;
+}
+
+.pc_search_title {
+    /* Search */
+    color: red;
+}
+
+.tablet_search_title {
+    color: blue;
+}
+
+.mobile_search_searchTitle {
+    /* 분석할 소환사 검색하기 */
+    margin-top: 15%;
+    margin-left: 5%;
+    font-family: 'Comfortaa';
+    font-style: bolder;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+    justify-content: center;
+    color: #000000;
+}
+
+.mobile_summoner_searchTitle {
+    /* 분석할 소환사 검색하기 */
+    margin-top: 10%;
+    margin-left: 5%;
+    font-family: 'Comfortaa';
+    font-style: bolder;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+    justify-content: center;
+    color: #000000;
+}
+
+.mobile_search_div {
+    /*검은색 박스*/
+    box-sizing: border-box;
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    padding-left: 5px;
+    border: 2px solid #000000;
+    display: table;
+}
+
+.mobile_search_guideline {
+    /*소환사명을 검색해주세요*/
+    height: 30px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.summoner_name {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 22px;
+
+    color: #4C9CCA;
+
+}
+
+.mobile_search_guideline:focus {
+    /*focus시 생기는 검은 테두리 제거*/
+    outline: none;
+}
+.mobile_search_guideline:focus::placeholder {
+    /*focus시 placeholder 감추기*/
+    color: transparent;
+}
+
+input::-ms-clear,input::-ms-reveal {display: none; width : 0; height: 0;}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration { display: none; }
+
+.zoom_icon {
+    /*돋보기*/
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 10px;
+}
+
+.nickname_table {
+    /*닉네임 검색 결과 미리보기*/
+    margin: auto;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-top: none;
+    border-color: rgba(0, 0, 0, 0.3);
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.champ_table {
+    margin: auto;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0);
+    width: 90%;
+    max-height: 300px;
+    overflow:scroll;
+    border-collapse: collapse;
+}
+
+.summoner_margin {
+    margin-top: 20px;
+}
+
+.icon_img {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.img_td {
+    text-align: center;
+    width: 100px;
+}
+
+.nickname_td {
+    font-size: 15px;
+}
+
+.tier_td {
+    font-size: 12px;
+    color: rgb(130, 130, 130);
+}
+
+.summoner_view:hover, .champ_row:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+.champ_img {
+    height: 50px;
+    width: 50px;
+}
+
+.champ_row {
+    margin-right: 0px;
+    height: 50px;
+}
+
+.champ_name {
+    font-size: 15px;
+    font-weight:bold;
+}
+
+.champ_matchcount {
+    font-size: 12px;
+}
+
+.champ_rate {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.category_bar{
+ display: flex;
+ width: 100%;
+ margin: 0 auto;
+ align-items: center;
+ justify-content: space-between;
+}
