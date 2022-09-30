@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lolpago-react-server/static/css/main.880443d4.css",
+    "main.js": "/lolpago-react-server/static/js/main.303d3604.js",
+    "static/media/LolpagoLoading.jpg": "/lolpago-react-server/static/media/LolpagoLoading.11c0344e1999d4434788.jpg",
+    "static/media/MagnifyingGlass.png": "/lolpago-react-server/static/media/MagnifyingGlass.a81e5f50b9462f42f82b.png",
+    "index.html": "/lolpago-react-server/index.html",
+    "main.880443d4.css.map": "/lolpago-react-server/static/css/main.880443d4.css.map",
+    "main.303d3604.js.map": "/lolpago-react-server/static/js/main.303d3604.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.880443d4.css",
+    "static/js/main.303d3604.js"
+  ]
+}
